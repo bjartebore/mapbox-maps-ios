@@ -48,6 +48,10 @@ public struct Examples {
         [
             "title": "Experimental",
             "examples": experimentalExamples
+        ],
+        [
+            "title": "Third party vector source",
+            "examples": thirdPartyExamples
         ]
     ]
 
@@ -255,6 +259,13 @@ public struct Examples {
         Example(title: "Globe View",
                 description: "Display map on a globe.",
                 type: GlobeViewExample.self),
+    ]
+    
+    
+    public static let thirdPartyExamples = [
+        Example(title: "Add a third party vector tile source",
+                description: "show some lines.",
+                type: ThirdPartyExample.self),
     ]
 }
 
